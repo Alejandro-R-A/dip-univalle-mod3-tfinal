@@ -1,0 +1,35 @@
+<app-navbar></app-navbar>
+<section>
+    <form [formGroup]="form" (ngSubmit)="saveNew()">
+       
+        <mat-form-field>
+            <mat-label>ID</mat-label>
+            <input matInput type="number" formControlName="id">
+            
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Nombre</mat-label>
+            <input matInput type="text" formControlName="nombre">
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Apellido</mat-label>
+            <input matInput type="text" formControlName="apellido">
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Edad</mat-label>
+            <input matInput type="text" formControlName="edad" >
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Carrera</mat-label>
+            <input matInput type="text" formControlName="carrera" >
+        </mat-form-field>
+
+        <button mat-raised-button [disabled]="form.invalid" type="submit" color="primary">Guardar</button>
+        <button mat-raised-button (click)="cancelar()" >Cancelar</button>
+
+    </form>
+</section>

@@ -1,0 +1,60 @@
+{
+  "estudiante": [
+    {
+      "id": "1",
+      "nombre": "Alejandro",
+      "apellido": "Romero",
+      "edad": "25",
+      "carrera": "Ing. Sistemas"
+    },
+    {
+      "id": "2",
+      "nombre": "Maria",
+      "apellido": "Hidalgo",
+      "edad": "50",
+      "carrera": "Ing. Comercial"
+    },
+    {
+      "id": "3",
+      "nombre": "Carlos",
+      "apellido": "García",
+      "edad": "22",
+      "carrera": "Ing. Electrónica"
+    },
+    {
+      "id": "4",
+      "nombre": "Laura",
+      "apellido": "Pérez",
+      "edad": "28",
+      "carrera": "Lic. Psicología"
+    },
+    {
+      "id": "5",
+      "nombre": "Diego",
+      "apellido": "López",
+      "edad": "23",
+      "carrera": "Ing. Industrial"
+    },
+    {
+      "id": "6",
+      "nombre": "Ana",
+      "apellido": "Martínez",
+      "edad": "21",
+      "carrera": "Lic. Administración"
+    },
+    {
+      "id": "7",
+      "nombre": "Mercedes",
+      "apellido": "Valenzuela",
+      "edad": "18",
+      "carrera": "Tec. Administracion"
+    },
+    {
+      "id": "8",
+      "nombre": "Juan",
+      "apellido": "Bustillos",
+      "edad": "21",
+      "carrera": "Lic. financiero"
+    }
+  ]
+}
